@@ -1,0 +1,49 @@
+.wrapper {
+    height: 528px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.wrapper h3 {
+    /* Контакты */
+
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 48px;
+    /* identical to box height, or 160% */
+    letter-spacing: -0.25px;
+
+    color: #F7BD13;
+
+
+}
+
+.text {
+    /* Ферма: г. Новороссий */
+
+
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    color: #734B3F;
+
+    padding-bottom: 40px;
+
+
+}
+
+.map {
+    margin-left: 30px;
+    width: 552px;
+    height: 264px;
+}

@@ -1,0 +1,40 @@
+.gallery img {
+    /* Rectangle 7 Copy 6 */
+
+
+    width: 216px;
+    height: 216px;
+
+
+    border-radius: 30px;
+
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Мы и наша ферма */
+
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 48px;
+    /* identical to box height, or 160% */
+    text-align: center;
+    letter-spacing: -0.25px;
+
+    color: #F7BD13;
+
+
+}

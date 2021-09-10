@@ -1,0 +1,62 @@
+.wrapperMain{
+    display: flex;
+    /*width: 1920px;*/
+    height: auto;
+
+    flex-direction: column;
+}
+
+.hello {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 49px;
+    padding-bottom: 72px;
+    /* Натуральные фермерск */
+
+
+
+
+
+
+}
+
+.famillyH{
+    /* От нашей семьи – ваш */
+
+  /*  width: 539px;
+    height: 48px;
+    left: 691px;
+    top: 307px;*/
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 48px;
+    /* identical to box height, or 160% */
+    letter-spacing: -0.25px;
+
+    color: #F7BD13;
+}
+.famillyH_content{
+
+   /* width: 539px;
+    height: 48px;
+    left: 691px;
+    top: 307px;*/
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -0.266667px;
+
+    color: #734B3F;
+}
+
+

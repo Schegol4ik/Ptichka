@@ -1,0 +1,28 @@
+.myBtn{
+    /* Rectangle */
+
+
+    height: 64px;
+    width: 216px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFDB4D;
+    border-radius: 100px;
+    cursor: pointer;
+
+    /* Кнопка */
+
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    text-align: center;
+
+    color: #734B3F;
+
+
+}

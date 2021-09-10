@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import {BrowserRouter, Redirect, Route, Switch} from "react-router-dom";
+import Head from "./components/head/head";
+import Footer from "./components/footer/footer";
+import {routes} from "./routes";
+import {MAIN_ROUTE} from "./utils/constants";
+import {useLanguage} from "./hooks/useLanguage";
+import BurgerMenu from "./components/burgerMenu/Burger";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = (props) => {
+    const {lang, changeLanguage} = useLanguage()
+
+    const handleLanguage = (lang) => {
+        changeLanguage(lang)
+    }
+    return (
+        <BrowserRouter>
+            <Head lang={lang} handleLang={handleLanguage}/>
+            <Switch>
+                {
+                    routes.map(({path, Component}) => <Route path={path} key={path} component={Component} exact />)
+                }
+                <Redirect to={MAIN_ROUTE}/>
+            </Switch>
+            <Footer lang={lang}/>
+        </BrowserRouter>
+    )
 }
 
-export default App;
+export default App

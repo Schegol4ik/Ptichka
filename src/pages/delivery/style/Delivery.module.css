@@ -1,0 +1,21 @@
+.content{
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h3{
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 48px;
+    letter-spacing: -0.25px;
+
+    color: #F7BD13;
+
+
+}

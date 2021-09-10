@@ -1,0 +1,53 @@
+.responsibility {
+    display: flex;
+    background-image: url("../../img/ответсвенность_фон.png");
+    height: 408px;
+
+
+
+}
+
+.content h3{
+    /* Птичка из станички Copy 2 */
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    letter-spacing: -0.2px;
+
+    color: #734B3F;
+
+
+}
+
+.text{
+    /* С первого дня работы Copy 2 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    color: #734B3F;
+
+    width: 456px;
+    height: 144px;
+
+
+}
+
+.responsibility{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.content{
+    padding-right: 200px;
+}

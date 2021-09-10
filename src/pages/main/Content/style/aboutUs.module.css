@@ -1,0 +1,91 @@
+.wrapper{
+    height: 599px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper h1{
+    /* Экологичный цикл про Copy */
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+
+    color: #734B3F;
+    padding-right: 24px;
+
+}
+
+.ciclyText{
+    width: 264px;
+    height: 264px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #734B3F;
+
+    padding-right: 24px;
+
+}
+.familyText{
+    width: 264px;
+    height:168px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #734B3F;
+
+    padding-right: 24px;
+}
+
+.tradicText{
+    width: 264px;
+    height: 144px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #734B3F;
+
+    padding-right: 24px;
+}
+
+.freshText{
+    width: 264px;
+    height: 168px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #734B3F;
+}
+
+.familyFarm{
+    margin-bottom: 90px;
+}
+
+.tradicionali{
+    margin-bottom: 105px;
+}
+
+.fresh{
+    margin-bottom: 77px;
+}

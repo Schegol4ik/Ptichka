@@ -1,0 +1,179 @@
+.wrapper{
+    height: 1176px ;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    /* Rectangle 4 */
+    background: #D8D8D8;
+
+}
+.wrapper h1{
+    /* Наша продукция */
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 48px;
+    /* identical to box height, or 160% */
+    text-align: center;
+    letter-spacing: -0.25px;
+
+    color: #F7BD13;
+
+    padding-bottom: 54px;
+
+}
+
+.top_row{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
+}
+
+.bottom_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.production h3 {
+    /* Продукция */
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #734B3F;
+}
+
+.production img {
+    width: 130px;
+    height: 130px;
+}
+
+.text {
+    /* Описание */
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+
+    color: #F5A623;
+
+}
+
+/*
+.chick img {
+    width: 192px;
+    height: 192px;
+}
+*/
+
+
+.chick{
+
+    width: 360px;
+    height: 432px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+
+}
+.b_chik{
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+
+
+.turk{
+    width: 360px;
+    height: 432px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.b_turk{
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+
+.rabbit{
+    width: 360px;
+    height: 432px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+.b_rabbit{
+    padding-bottom: 24px;
+}
+
+.sausag{
+    width: 360px;
+    height: 432px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+.b_sausag{
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+
+.egg{
+    width: 360px;
+    height: 432px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+.b_egg{
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+
+.semi{
+    width: 360px;
+    height: 432px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+.b_semi{
+    padding-bottom: 24px;
+}

@@ -1,0 +1,59 @@
+.wrapperFoot{
+    display: flex;
+
+    background: url("./img/фон_header.png");
+
+   /* width: 1920px;*/
+    height: 192px;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+
+}
+
+.Links {
+    /* Партнерам Copy */
+
+
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    text-decoration: none;
+
+    padding-right: 29px;
+
+    color: #FFFFFF;
+
+
+
+}
+
+
+.organization{
+    /* Крестианско-фермерсв */
+
+
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+    /* identical to box height, or 185% */
+
+    color: #FFFFFF;
+
+    padding-right: 50px;
+    padding-top: 32px;
+
+}

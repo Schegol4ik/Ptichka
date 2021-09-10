@@ -1,0 +1,144 @@
+.quality {
+    /* Полный цикл производ */
+
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+
+    line-height: 24px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    letter-spacing: -0.266667px;
+
+    color: #734B3F;
+
+
+
+}
+.quality h3{
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 48px;
+    letter-spacing: -0.25px;
+
+    color: #F7BD13;
+
+}
+
+
+.discription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    color: #734B3F;
+
+}
+
+.discription h3 {
+
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 24px;
+    /* or 100% */
+
+    color: #734B3F;
+
+
+}
+
+.top_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 240px;
+}
+
+.bot_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 240px;
+}
+
+.textOne{
+    width: 456px;
+    height: 96px;
+    padding-right: 72px;
+}
+
+.textTwo{
+    width: 456px;
+    height: 72px;
+    padding-bottom: 20px;
+}
+
+.textTree{
+    width: 456px;
+    height: 72px;
+    padding-right: 72px;
+}
+.textFour{
+    width: 456px;
+    height: 96px;
+}
+
+.reference h3{
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 48px;
+
+    text-align: center;
+    letter-spacing: -0.25px;
+
+    color: #F7BD13;
+
+
+
+}
+
+.borders{
+    display: flex;
+    justify-content: center;
+}
+
+.borderOne{
+    padding: 54px 24px 96px 0px;
+}
+
+.borderTwo{
+
+    padding: 54px 24px 96px 0px;
+}
+
+.borderThree{
+
+    padding: 54px 24px 96px 0px;
+}
+.borderFour{
+    padding: 54px 0px 96px 0px;
+}
+.border{
+    width: 264px;
+    height: 360px;
+    background: #EBEBEB;
+}
