@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Ptichka/static/css/main.c7e878b2.chunk.css",
+    "main.js": "/Ptichka/static/js/main.3081e63e.chunk.js",
+    "main.js.map": "/Ptichka/static/js/main.3081e63e.chunk.js.map",
+    "runtime-main.js": "/Ptichka/static/js/runtime-main.abc4844d.js",
+    "runtime-main.js.map": "/Ptichka/static/js/runtime-main.abc4844d.js.map",
+    "static/js/2.2accce78.chunk.js": "/Ptichka/static/js/2.2accce78.chunk.js",
+    "static/js/2.2accce78.chunk.js.map": "/Ptichka/static/js/2.2accce78.chunk.js.map",
+    "static/js/3.88a0f1c3.chunk.js": "/Ptichka/static/js/3.88a0f1c3.chunk.js",
+    "static/js/3.88a0f1c3.chunk.js.map": "/Ptichka/static/js/3.88a0f1c3.chunk.js.map",
+    "index.html": "/Ptichka/index.html",
+    "static/css/main.c7e878b2.chunk.css.map": "/Ptichka/static/css/main.c7e878b2.chunk.css.map",
+    "static/js/2.2accce78.chunk.js.LICENSE.txt": "/Ptichka/static/js/2.2accce78.chunk.js.LICENSE.txt",
+    "static/media/1.01642ca3.png": "/Ptichka/static/media/1.01642ca3.png",
+    "static/media/export.75927963.png": "/Ptichka/static/media/export.75927963.png",
+    "static/media/logo.032c9c0a.png": "/Ptichka/static/media/logo.032c9c0a.png",
+    "static/media/Карта.6f5832ad.png": "/Ptichka/static/media/Карта.6f5832ad.png",
+    "static/media/responsibility.module.css": "/Ptichka/static/media/ответсвенность_фон.257463d7.png",
+    "static/media/head.module.scss": "/Ptichka/static/media/фон небо.947cef38.png",
+    "static/media/footer.module.css": "/Ptichka/static/media/фон_header.85aec11e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.abc4844d.js",
+    "static/js/2.2accce78.chunk.js",
+    "static/css/main.c7e878b2.chunk.css",
+    "static/js/main.3081e63e.chunk.js"
+  ]
+}
