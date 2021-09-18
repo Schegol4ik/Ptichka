@@ -1,11 +1,10 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {BrowserRouter, Redirect, Route, Switch} from "react-router-dom";
 import Head from "./components/head/head";
 import Footer from "./components/footer/footer";
 import {routes} from "./routes";
 import {MAIN_ROUTE} from "./utils/constants";
 import {useLanguage} from "./hooks/useLanguage";
-import BurgerMenu from "./components/burgerMenu/Burger";
 
 const App = (props) => {
     const {lang, changeLanguage} = useLanguage()
@@ -18,7 +17,7 @@ const App = (props) => {
             <Head lang={lang} handleLang={handleLanguage}/>
             <Switch>
                 {
-                    routes.map(({path, Component}) => <Route path={path} key={path} component={Component} exact />)
+                    routes.map(({path, Component}) => <Route path={path} key={path} component={Component} exact/>)
                 }
                 <Redirect to={MAIN_ROUTE}/>
             </Switch>

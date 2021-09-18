@@ -4,11 +4,9 @@ import logo from './img/logo.png'
 import chicken from './img/птичка.png'
 import {Link} from "react-router-dom";
 
-import styled,{keyframes} from "styled-components";
+import styled, {keyframes} from "styled-components";
 import {HEADER} from '../../translate/translate_header'
 import {bounce} from "react-animations";
-
-
 
 
 const Head = ({lang, handleLang}) => {
@@ -25,7 +23,8 @@ const Head = ({lang, handleLang}) => {
                 <Link to="/main"><img src={logo}/></Link>
             </div>
             <div className={s.list}>
-                {HEADER[lang].menu.map(({title,link},index)=><Link to={link} key={index} className={s.Links}>{title}</Link>)}
+                {HEADER[lang].menu.map(({title, link}, index) => <Link to={link} key={index}
+                                                                       className={s.Links}>{title}</Link>)}
 
 
             </div>
